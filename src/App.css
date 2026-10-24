@@ -1,0 +1,22 @@
+.app {
+  min-height: 100svh;
+  display: grid;
+  align-content: center;
+  gap: 16px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.kicker {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.lede {
+  max-width: 36rem;
+  font-size: 1.125rem;
+}
