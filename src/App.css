@@ -1,11 +1,7 @@
 .app {
-  min-height: 100svh;
   display: grid;
-  align-content: center;
-  gap: 16px;
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 48px 24px;
+  align-content: start;
+  gap: 12px;
 }
 
 .kicker {
@@ -19,4 +15,10 @@
 .lede {
   max-width: 36rem;
   font-size: 1.125rem;
+}
+
+.page-link {
+  color: var(--accent);
+  font-weight: 650;
+  width: fit-content;
 }
